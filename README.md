@@ -1,4 +1,4 @@
-# Tesla Light Show - Happy Birthday
+# Tesla Light Show - Happy Birthday 🥳
 Tesla custom light-show set to Happy Birthday. See instructions below for using it in your car and feel free to raise a pull-request to improve it further!
 
 Demo video:
@@ -11,14 +11,9 @@ Xlight sequence:
 
 Like it? Consider donating to [St. Jude Children Hospital](https://www.stjude.org/donate).
 
-## Running Happy Birthday on your vehicle
-A custom show can be run on a supported vehicle by loading it via a USB flash drive. Create and share your shows with others! A single show can be shared and run on any supported vehicle; they are not model-specific. The sequence data is stored in a .fseq file and the music comes from your choice of .mp3 or .wav.
-### Supported Vehicles
-- Model S (2021+)
-- Model 3
-- Model X (2021+)
-- Model Y
-- Running Software v11.0 (2021.44.25) or newer
+## Running Happy Birthday on your vehicle 🤓
+The process is very easy - don't be overwhelmed by the steps below. You just 2 files in a USB flash drive for your car to read from. Please see the detailed steps below.
+
 ### USB flash drive requirements
 - Must contain a base-level folder called "LightShow" (without quotation marks and case sensitive).
 - The LightShow folder must contain 2 files:
@@ -28,9 +23,9 @@ A custom show can be run on a supported vehicle by loading it via a USB flash dr
 - Must **not** contain a base-level TeslaCam folder.
 - Must **not** contain any map update or firmware update files.
 
-### Running the custom Happy Birthday light show on a vehicle
+### Steps for running the custom Happy Birthday light show on a vehicle
 - You need a flash-drive to load the light-show files into your vehicle. Make sure it is prepared as described above.
-- Download the latest light-show files [from releases](https://github.com/SidU/HBDTeslaLightShow/releases).
+- Download the latest Happy Birthday light-show files [from releases](https://github.com/SidU/HBDTeslaLightShow/releases) here.
 - Uncompress the .zip file into a folder named LightShow in the root of your flash-drive.
 - Insert the flash drive into one of the front USB or USB-C ports, or glovebox USB port, then wait a few seconds.
 - In Toybox, select Light Show and tap Start The Show. If the files on the USB flash drive meet the requirements, then the custom show will be used instead of the built-in show.
@@ -41,7 +36,11 @@ A custom show can be run on a supported vehicle by loading it via a USB flash dr
 
     <img src="/images/light_show_ready.png?raw=true" widtht="476" />
 
-# Credits
+# Remixing the show! 🔥
+- Follow the instructions in [teslamotors/light-show repo](https://github.com/teslamotors/light-show#getting-started-with-the-tesla-xlights-project-directory).
+- [⚠️ important] Instead of the examples sequence mentioned in the instructions above, use [the sequence in this repo](https://github.com/SidU/HBDTeslaLightShow/tree/main/LightShow).
+
+# Credits 🙏
 * Happy Birthday song credit: Alexander Blu
   * Song: Happy Birthday Piano Music (Traditional Song) 
   * Licence: The song is permitted for non-commercial use under license ìAttribution-NonCommercial 4.0 International (CC BY-NC 4.0)î"
