@@ -12,16 +12,17 @@ Xlight sequence:
 Like it? Consider donating to [St. Jude Children Hospital](https://www.stjude.org/donate).
 
 ## Running Happy Birthday on your vehicle 🤓
-The process is very easy - don't be overwhelmed by the steps below. You just 2 files in a USB flash drive for your car to read from. Please see the detailed steps below.
+The process is very easy - don't be overwhelmed by the steps below. You just need 2 files in a USB flash drive for your car to read from. Please see the detailed steps below.
 
 ### USB flash drive requirements
+- Must be formatted as exFAT, FAT 32 (for Windows), MS-DOS FAT (for Mac), ext3, or ext4. NTFS is currently not supported.
+- Must **not** contain a base-level TeslaCam folder.
+- Must **not** contain any map update or firmware update files.
 - Must contain a base-level folder called "LightShow" (without quotation marks and case sensitive).
 - The LightShow folder must contain 2 files:
   - "lightshow.fseq"
   - "lightshow.mp3" or "lightshow.wav" (wav is recommended)
-- Must be formatted as exFAT, FAT 32 (for Windows), MS-DOS FAT (for Mac), ext3, or ext4. NTFS is currently not supported.
-- Must **not** contain a base-level TeslaCam folder.
-- Must **not** contain any map update or firmware update files.
+- Instructions for getting the contents of LightShow folder below.
 
 ### Steps for running the custom Happy Birthday light show on a vehicle
 - You need a flash-drive to load the light-show files into your vehicle. Make sure it is prepared as described above.
